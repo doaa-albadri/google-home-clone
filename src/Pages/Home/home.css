@@ -1,0 +1,41 @@
+.home-container {
+
+    display: block;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+}
+.logo {
+    width: 270px;
+    margin-top: 5.5%;
+  }
+
+  .searchbar{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    /* width: 50%; */
+  }
+  
+  .center {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  @media (max-width: 900px) {
+    .logo {
+      width: 220px;
+      margin-top: 20%;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .logo {
+      width: 110px;
+      margin-top: 20%;
+    }
+  }
