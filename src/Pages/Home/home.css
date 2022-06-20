@@ -26,10 +26,40 @@
     
   }
 
+  .btns {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    flex-direction: row;
+    column-gap: 15px;
+  }
+
+  .text {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    font-size: 13px;
+    font-weight: 200;
+    flex-direction: row;
+    column-gap: 9px;
+  }
+
+  .text a {
+    text-decoration: none;
+    color: rgb(0, 0, 185);
+  }
+
+  .text a:hover {
+    border-bottom: 1px solid rgb(0, 0, 185);
+  }
+
   @media (max-width: 900px) {
     .logo {
       width: 220px;
       margin-top: 20%;
+    }
+    .text {
+      font-size: 11px;
     }
   }
 
@@ -37,5 +67,14 @@
     .logo {
       width: 110px;
       margin-top: 20%;
+    }
+    .btns {
+      margin-top: 8px;
+      column-gap: 7px;
+    }
+    .text {
+      font-size: 5px;
+      column-gap: 5px;
+      margin-top: 12px;
     }
   }
