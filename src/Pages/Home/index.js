@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "../../Components/Button";
 import SearchBar from "../../Components/SearchBar";
 import "./home.css";
 
@@ -13,6 +14,15 @@ const Home = () => {
       </div>
       <div className="searchbar">
         <SearchBar />
+      </div>
+      <div className="btns">
+        <Button>Google Search</Button>
+        <Button>I'm Feeling Lucky</Button>
+      </div>
+      <div className="text">
+        <span>Google offered in:</span>
+        <a href="#">العربية</a>
+        <a href="#">Italiano</a>
       </div>
     </div>
   );
