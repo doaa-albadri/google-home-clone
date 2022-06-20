@@ -8,7 +8,9 @@ const Navbar = () => {
         <span>Gmail</span>
         <span>Images</span>
       </div>
-      <img src="https://cdn3.iconfinder.com/data/icons/google-material-design-icons/48/ic_apps_48px-512.png" />
+      <div className="apps-icon">
+        <img src="https://cdn3.iconfinder.com/data/icons/google-material-design-icons/48/ic_apps_48px-512.png" />
+      </div>
       <div className="g-circle">
         <span>D</span>
       </div>
